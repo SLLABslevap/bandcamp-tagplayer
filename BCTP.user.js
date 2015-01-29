@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name        BCTP
+// @name        Bandcamp TagPlayer
 // @namespace   https://github.com/SLLABslevap/bandcamp-tagplayer
 // @description A genre/tag audio player for bandcamp.com (like Last.fm Player for Last.fm). 
-// @version     0.1
+// @version     0.1.1
 // @include     http*://bandcamp.com/tagplayer
 // @include     http*://bandcamp.com/tagplayer?*
 // @include     http*://bandcamp.com/tagplayer/*
