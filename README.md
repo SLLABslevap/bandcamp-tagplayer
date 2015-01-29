@@ -1,12 +1,12 @@
 # Bandcamp TagPlayer
 
 ###What is it?
-It's a [userscript](https://greasyfork.org/en/help/installing-user-scripts). It's a [Last.fm Player](http://www.last.fm/listen/globaltags/delta%20blues)-like genre/tag audio player for the music streaming site [bandcamp.com](http://bandcamp.com). 
+You pass it a genre, it plays music. It's a [userscript](https://greasyfork.org/en/help/installing-user-scripts). It's a [Last.fm Player](http://www.last.fm/listen/globaltags/delta%20blues)-like genre/tag audio player for the music streaming site [bandcamp.com](http://bandcamp.com). 
 (Bandcamp is a pretty neat site where bands can publish and sell their music directly to their fans. You can listen to most music for free before deciding to support the musician and buy it).
 
 ###How to use it?
 1. [Install a userscript addon](https://greasyfork.org/en/help/installing-user-scripts) for your browser of choice so that you can use userscripts. 
-2. Install the Bandcamp TagPlayer userscript either here, here or here.
+2. [Install](https://github.com/SLLABslevap/bandcamp-tagplayer/raw/master/BCTP.user.js) the Bandcamp TagPlayer userscript either [here](https://github.com/SLLABslevap/bandcamp-tagplayer/raw/master/BCTP.user.js), [here](https://greasyfork.org/en/scripts/7786-bandcamp-tagplayer) or [here](https://openuserjs.org/scripts/SLLABslevap/Bandcamp_TagPlayer).
 3. The url of BCTP is https://bandcamp.com/tagplayer/ but you can also  access it via the bandcamp tags pages through links the script inserts. Do either of the followings:
  - go to https://bandcamp.com/tagplayer/ and start using it.
  - go to https://bandcamp.com/tags and select "Open tags in TagPlayer", then click a tag.
@@ -47,3 +47,6 @@ Last tested with
 - Responsive design?
 - Skinning?
 - Caching
+
+###Links
+Primary home of the script is on [github](https://github.com/SLLABslevap/bandcamp-tagplayer). It also on [greasyfork](https://greasyfork.org/en/scripts/7786-bandcamp-tagplayer) and [openuserjs ](https://openuserjs.org/scripts/SLLABslevap/Bandcamp_TagPlayer)
