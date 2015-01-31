@@ -2,7 +2,7 @@
 // @name        Bandcamp TagPlayer
 // @namespace   https://github.com/SLLABslevap/bandcamp-tagplayer
 // @description A genre/tag audio player for bandcamp.com (like Last.fm Player for Last.fm). 
-// @version     0.1.1
+// @version     0.1.2
 // @include     http*://bandcamp.com/tagplayer
 // @include     http*://bandcamp.com/tagplayer?*
 // @include     http*://bandcamp.com/tagplayer/*
@@ -16,7 +16,7 @@
 
 //Global var declarations/definitions
 var tpName = "Bandcamp TagPlayer";
-var tpVersion = "0.1 pre-alpha post-WIP development";
+var tpVersion = "0.1.2 pre-alpha post-WIP development";
 var tagplayerURL = window.location.protocol + "//bandcamp.com/tagplayer/?";
 var tagViaUrl="";
 var tagViaUrlForDisplay="";
@@ -384,7 +384,7 @@ function loadPlayer(albumTitle, albumArtist, albumLink, trackTitle,trackURL,trac
 	pImg.src = albumImg;
 	pAudio.src = trackURL;
 	pAudio.load();
-	document.head.getElementsByTagName("title")[0].innerHTML = trackTitle + "  |  " + albumArtist + "  "+tpName;
+	document.head.getElementsByTagName("title")[0].innerHTML = trackTitle + "  |  " + albumArtist + "  ["+tpName+"]";
 	pPlayer.style.display = "block";
 }
 
